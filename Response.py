@@ -6,7 +6,7 @@ class RunBot:
     def __init__(self, user_file_path, first_name):
         self.first_name = first_name
         self.API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
-        self.headers = {"Authorization": "Bearer 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"}
+        self.headers = {"Authorization": "YOUR_KEY"}
         self.user_file_path = user_file_path
         self.load_prompt()
 
@@ -51,12 +51,3 @@ class RunBot:
 
         return output_final
 
-
-
-''''
-API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
-headers = {"Authorization": "Bearer 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"}
-
-self.API_URL = "https://api-inference.huggingface.co/models/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
-        self.headers = {"Authorization": "Bearer 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"}
-'''
