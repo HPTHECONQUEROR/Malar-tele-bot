@@ -3,7 +3,7 @@ from Response import RunBot
 import threading
 import os
 
-BOT_TOKEN = "6748470156:AAFZ7PjTIsUE5oAKLoNfc-372QHpyHGJ6dI"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 user_instances = {}
